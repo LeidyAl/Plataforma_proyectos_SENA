@@ -6,7 +6,223 @@ Naranja oscuro: #994100
 Naranja más oscuro: #4c2100
 */
 
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+.containerGen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Nav */
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #ff6f00a8;
+    color: #fff;
+    position: fixed;
+    top: 0;
+}
+
+.contIzq {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nombSitio h1 {
+    font-size: 16pt;
+    margin: 0 12px;
+}
+
+.contDer ul {
+    display: flex;
+    padding: 0 12px;
+}
+
+.contDer ul li a {
+    display: flex;
+    color: #fff;
+    padding: 0 8px;
+}
+
+
+/* Sección 1 */
+
+.sec1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../resources/img/Bg1.png');
+    background-size: cover;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px;
+}
+
+.welcome h2 {
+    font-size: 24pt;
+    font-weight: 900;
+    color: #ff6d00;
+}
+
+.info {
+    width: 30%;
+    font-size: 14pt;
+    font-weight: 300;
+    color: #fff;
+    margin: 12px 0;
+    text-align: justify;
+}
+
+
+/* Sección 2 */
+
+.sec2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.sec2 h2 {
+    color: #ff6d00;
+    font-size: 24pt;
+}
+
+.contItems {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.headItem {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 12px 0;
+    border-bottom: solid #ff6d00 2px;
+}
+
+.headItem img {
+    height: 60%;
+}
+
+.headItem h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #4c2100;
+    font-size: 18pt;
+}
+
+.itemInfo {
+    text-align: center;
+}
+
+
+/* Sección 3 */
+
+.sec3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-image: url('../resources/img/Bg2.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec3 h2 {
+    font-size: 24pt;
+    color: #fff;
+}
+
+.contentCards {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 40%;
+    height: 35vh;
+    margin: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    position: relative;
+}
+
+.cardPreview {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cardPreview img {
+    width: 100%;
+}
+
+.filtro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%);
+}
+
+.cardInfo {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 8px 12px;
+}
+
+.cardInfo p {
+    font-size: 10pt;
 }
