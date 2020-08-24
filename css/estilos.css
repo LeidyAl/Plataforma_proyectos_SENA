@@ -40,6 +40,7 @@ body {
     color: #fff;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .contIzq {
@@ -116,7 +117,7 @@ body {
     padding: 20px 0;
 }
 
-.sec2 h2 {
+.titulo1 {
     color: #ff6d00;
     font-size: 24pt;
 }
@@ -225,4 +226,198 @@ body {
 
 .cardInfo p {
     font-size: 10pt;
+}
+
+
+/* Sección 4 */
+
+.sec4 {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../resources/img/Bg3.png');
+    background-size: cover;
+}
+
+.contacto {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto p {
+    font-size: 16pt;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: 12px 0;
+}
+
+.iconos a {
+    color: #fff;
+    font-size: 24pt;
+    margin: 12px;
+}
+
+.contForm {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 16px 0;
+    background: #fff;
+}
+
+.contForm form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contInputs {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.label {
+    font-weight: 700;
+    color: #4c2100;
+}
+
+.contInputs input {
+    width: 100%;
+    border-radius: 4px;
+    padding: 4px 0;
+    background: transparent;
+    border: 2px solid #ff6d00;
+}
+
+.contInputs select {
+    width: 100%;
+    border-radius: 4px;
+    padding: 4px 0;
+    border: 2px solid #ff6d00;
+}
+
+.contInputs textarea {
+    width: 100%;
+    border-radius: 4px;
+    padding: 4px 0;
+    background: transparent;
+    border: 2px solid #ff6d00;
+}
+
+.contBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 20%;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 12pt;
+    font-weight: 700;
+    padding: 8px;
+    margin: 12px 0;
+    background: #157D80;
+}
+
+
+/* Footer */
+
+footer {
+    background: #2c3e50;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+/* Estilos responsive */
+
+@media only screen and (max-width: 900px) {
+    /* menú */
+    .nav {
+        flex-direction: column;
+    }
+    .contIzq {
+        display: none;
+    }
+    /* Sección 1 */
+    .sec1 {
+        width: 100%;
+        height: auto;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 100px 0 12px 0;
+    }
+    .welcome h2 {
+        font-size: 16pt;
+        font-weight: 900;
+        color: #ff6d00;
+    }
+    .info {
+        width: 50%;
+        font-size: 8pt;
+        font-weight: 300;
+        color: #fff;
+        margin: 0;
+        text-align: justify;
+    }
+    /* Sección 2 */
+    .contItems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item {
+        width: 80%;
+    }
+    .headItem img {
+        width: 20%;
+    }
+    /* Sección 3 */
+    .contentCards {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+    }
+    /* Sección 4 */
+    .sec4 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacto {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 12px 0;
+    }
+    .contForm {
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+    }
+    .contForm form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
