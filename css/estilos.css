@@ -115,6 +115,72 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
+    background-image: url('../resources/img/Bg2.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contAsesoria {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+
+.titulo2 {
+    font-size: 24pt;
+    color: #fff;
+}
+
+.contAsesoria p {
+    width: 80%;
+    color: #fff;
+    font-size: 14pt;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contTipoCliente {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.btnCliente {
+    width: 20%;
+    border-radius: 10px;
+    padding: 12px;
+    background: #157D80;
+    transition: 600ms ease;
+}
+
+.btnCliente:hover {
+    padding: 20px;
+    background: #0e575a;
+}
+
+.btnCliente a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+/* Sección 3 */
+
+.sec3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
 }
 
 .titulo1 {
@@ -162,9 +228,9 @@ body {
 }
 
 
-/* Sección 3 */
+/* Sección 4 */
 
-.sec3 {
+.sec4 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -173,11 +239,6 @@ body {
     background-image: url('../resources/img/Bg2.png');
     background-size: cover;
     background-attachment: fixed;
-}
-
-.sec3 h2 {
-    font-size: 24pt;
-    color: #fff;
 }
 
 .contentCards {
@@ -229,9 +290,9 @@ body {
 }
 
 
-/* Sección 4 */
+/* Sección 5 */
 
-.sec4 {
+.sec5 {
     width: 100%;
     padding: 40px 0;
     display: flex;
@@ -304,6 +365,7 @@ body {
     width: 100%;
     border-radius: 4px;
     padding: 4px 0;
+    background: transparent;
     border: 2px solid #ff6d00;
 }
 
@@ -322,7 +384,8 @@ body {
 }
 
 .btn {
-    width: 20%;
+    min-width: 20%;
+    max-width: 50%;
     color: #fff;
     border-radius: 10px;
     font-size: 12pt;
@@ -377,6 +440,20 @@ footer {
         text-align: justify;
     }
     /* Sección 2 */
+    .contTipoCliente {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btnCliente {
+        width: 60%;
+        min-height: auto;
+        border-radius: 10px;
+        padding: 12px;
+        background: #157D80;
+        margin: 12px 0;
+    }
+    /* Sección 3 */
     .contItems {
         display: flex;
         flex-direction: column;
@@ -388,7 +465,7 @@ footer {
     .headItem img {
         width: 20%;
     }
-    /* Sección 3 */
+    /* Sección 4 */
     .contentCards {
         width: 80%;
         flex-direction: column;
@@ -397,8 +474,8 @@ footer {
     .card {
         width: 80%;
     }
-    /* Sección 4 */
-    .sec4 {
+    /* Sección 5 */
+    .sec5 {
         flex-direction: column;
         align-items: center;
     }
