@@ -1,0 +1,28 @@
+.secForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    background: url('../resources/img/Bg3.png');
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 12px 0;
+    background: rgba(255, 255, 255, 0.788);
+}
+
+.container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
