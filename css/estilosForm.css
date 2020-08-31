@@ -16,7 +16,7 @@
     justify-content: center;
     border-radius: 10px;
     padding: 12px 0;
-    background: rgba(255, 255, 255, 0.788);
+    background: rgba(255, 255, 255, 0.877);
 }
 
 .container form {
@@ -25,4 +25,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 80%;
+    }
 }
