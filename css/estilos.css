@@ -132,6 +132,7 @@ body {
 .titulo2 {
     font-size: 24pt;
     color: #fff;
+    text-align: center;
 }
 
 .contAsesoria p {
@@ -187,6 +188,7 @@ body {
 .titulo1 {
     color: #ff6d00;
     font-size: 24pt;
+    text-align: center;
 }
 
 .contItems {
